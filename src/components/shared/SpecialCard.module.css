@@ -1,0 +1,57 @@
+
+.image img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.title {
+
+    padding: 10px;
+}
+
+.title h4 {
+    color: #E3E3E3;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.price p , .price span{
+    color: #E3E3E3;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px ;
+    align-items: center;
+}
+
+.links a {
+    color: #B2B1B9;
+}
+.btns{
+    padding: 10px;
+}
+
+.btns button {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    font-weight: bold;
+    background: #E3E3E3;
+    transition: all .3s linear;
+    color: #595260;
+}
+.btns button:hover {
+    background: #F05454;
+    color: #B2B1B9;
+}

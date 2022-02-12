@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    margin: 2px 0;
+    padding: 10px 0;
+    background-color: #DADDFC;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.container .images {
+    width: 40px;
+    border-radius: 5px;
+}
+
+.titles h4 {
+    font-size: .9rem;
+    color: #233142;
+}
+.span {
+    font-size: .8rem;
+    color: #EEEEEE;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #406882;
+}
+.p {
+    font-size: .8rem;
+    color: #233142;
+    font-weight: bold;
+}
+
+.titles span {
+    color: #595260;
+    font-size: .7rem;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+}
+
+.increase {
+    width: 20px;
+    padding: 5px 6px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background: #406882;
+    cursor: pointer;
+    /* box-shadow: 0 5px 5px rgba(0, 0, 0, .2); */
+    transition: all .3s linear;
+    color: #EEEEEE;
+}
+.decrease {
+    width: 20px;
+    padding: 5px 7px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background: #406882;
+    cursor: pointer;
+    /* box-shadow: 0 5px 5px rgba(0, 0, 0, .2); */
+    transition: all .3s linear;
+    color: #EEEEEE;
+}
+.remove img {
+    width: 20px;
+}
+.remove {
+    width: 20px;
+    padding: 1px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background: #406882;
+    cursor: pointer;
+    /* box-shadow: 0 5px 5px rgba(0, 0, 0, .2); */
+    transition: all .3s linear;
+    color: #EEEEEE;
+}
+
+@media (min-width: 768px ) {
+    .container .images {
+        width: 50px;
+    }
+    .titles h4 {
+        font-size: 1.1rem;
+    }
+    .span {
+        font-size: 1rem;
+    }
+    .titles span {
+        font-size: .9rem;
+    }
+    .increase {
+        width: 30px;
+        padding: 10px 11px;
+    }
+    .decrease {
+        width: 30px;
+        padding: 10px 13px;
+    }
+    .remove {
+        width: 30px;
+        padding: 4px 3px;
+    }
+    .remove img {
+        width: 25px;
+    }
+    .p {
+        font-size: 1rem;
+    }
+}

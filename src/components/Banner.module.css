@@ -1,0 +1,5 @@
+.container {
+    background: url(../assets/images/bg-1.png) no-repeat  center;
+    height: calc(100vh - 100px);
+    margin: 20px 0;
+}

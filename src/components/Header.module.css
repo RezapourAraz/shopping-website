@@ -1,0 +1,135 @@
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    padding: 15px 30px;
+    height: 80px;
+    align-items: center;
+    background-color: #E3E3E3;
+    box-shadow: 0 5px 15px rgba(0, 0 , 0, .5);
+    z-index: 10;
+}
+
+.logo {
+    padding: 10px 5px;
+    margin-left: 40px;
+}
+
+.logo h4 {
+    color: #406882;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.search {
+    padding: 10px 5px;
+    position: relative;
+}
+
+.search .searchIcon{
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.search input {
+    position: absolute;
+    top: 50px;
+    left: -200px;
+    width: 300px;
+    padding: 10px 9px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.shopCart {
+    padding: 10px 5px;
+    position: relative;
+}
+
+.shopCart img {
+    width: 30px;
+}
+
+.shopCart span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #F05454;
+    padding: 1px 4px;
+    border-radius: 50%;
+    color: #E3E3E3;
+}
+
+/* Responsive */
+
+@media (min-width: 425px) {
+    .search .searchIcon{
+        position: absolute;
+        top: 0;
+        right: -75px;
+        width: 20px;
+        cursor: pointer;
+    }
+    .logo h4 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 500px) {
+    .search .searchIcon{
+        position: absolute;
+        top: 0;
+        right: -110px;
+        width: 20px;
+        cursor: pointer;
+    }
+    .logo h4 {
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 600px) {
+    .search .searchIcon{
+        position: absolute;
+        top: 0;
+        right: -160px;
+        width: 20px;
+        cursor: pointer;
+    }
+    .logo h4 {
+        font-size: 1.1rem;
+    }
+    .search input {
+        left: -130px;
+        
+    }
+}
+@media (min-width: 769px) {
+    .search input {
+        display: block;
+        width: 300px;
+        position: initial;
+        top: 0;
+        padding: 10px 9px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }    
+    .search .searchIcon{
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        width: 20px;
+        cursor: pointer;
+    }
+    .logo {
+        margin-left: 0;
+    }
+    .logo h4 {
+        font-size: 1.1rem;
+    }
+}
